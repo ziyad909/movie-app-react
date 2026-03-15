@@ -1,0 +1,30 @@
+
+.home{
+padding:20px;
+}
+
+.search-form{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.search-input{
+    flex:1;
+    padding-left:20px;
+    border-radius:10px;
+    outline:none;
+    font-size:18px;
+}
+
+.search-button:hover{
+  background-color:white;
+  color:black;
+}
+
+.movies-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+    gap:20px;
+    padding:20px;
+}
